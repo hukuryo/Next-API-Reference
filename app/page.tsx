@@ -4,7 +4,7 @@ import axios from "axios";
 
 export default function Home() {
   const getData = async () => {
-    const response = await axios.get("/api");
+    const response = await axios.get("/api/users");
     console.log(response);
   };
 

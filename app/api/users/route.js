@@ -2,6 +2,6 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   return NextResponse.json({
-    message: "データを取得!",
+    message: "/api/usersからデータを取得!",
   });
 }
